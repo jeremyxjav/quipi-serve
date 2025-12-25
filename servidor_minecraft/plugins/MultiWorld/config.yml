@@ -1,0 +1,83 @@
+# # options.debug: must the debug output be printed?
+# # options.difficulty: what is the server diffeculty?
+# # options.locale: what set of lang files must be used, supported: en_US, nl_NL, de_DE, it_IT
+# # spawnGroup: used to set withs worlds have what spawn, difficult to use. see official site for details
+
+options:
+  debug: false
+  difficulty: NORMAL
+  usecreativemode: false
+  usecreativemodeinv: true
+  blockEnderChestInCrea: false
+  useEndPortalHandler: false
+  useportalhandler: false
+  useWorldSpawnHandler: false
+  useWorldChatSeperator: false
+  craftbukkitHooks: true
+worlds:
+  OneBlock:
+    seed: 8213529035567240234
+    worldgen: Normal
+    options: ''
+    difficulty: EASY
+    autoload: true
+  OneBlock_nether:
+    seed: -139535295410563997
+    worldgen: Nether
+    options: ''
+    difficulty: EASY
+    autoload: true
+  OneBlock_the_end:
+    seed: -139535295410563997
+    worldgen: The_End
+    options: ''
+    difficulty: EASY
+    autoload: true
+  multiob:
+    seed: 8897749756714806138
+    worldgen: Normal
+    options: ''
+    difficulty: EASY
+    autoload: true
+  multiob_nether:
+    seed: -5444411049001887738
+    worldgen: Nether
+    options: ''
+    difficulty: EASY
+    autoload: true
+  multiob_the_end:
+    seed: -5444411049001887738
+    worldgen: The_End
+    options: ''
+    difficulty: EASY
+    autoload: true
+  ob:
+    seed: 2203948059106342260
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  onedef:
+    seed: -1623939607061006280
+    worldgen: NULLGEN
+    options: Oneblock.VoidChunkGenerator
+    difficulty: EASY
+    autoload: true
+  world:
+    seed: -5857631342735862987
+    worldgen: Normal
+    options: ''
+    difficulty: EASY
+    autoload: true
+  world_nether:
+    seed: 4320471103051584043
+    worldgen: Nether
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  world_the_end:
+    seed: 4320471103051584043
+    worldgen: The_End
+    options: ''
+    difficulty: NORMAL
+    autoload: true

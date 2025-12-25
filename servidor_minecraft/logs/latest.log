@@ -1,0 +1,335 @@
+[17:49:28] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:49:32] [ServerMain/INFO]: Loaded 7 recipes
+[17:49:33] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[17:49:33] [Server thread/INFO]: Loading properties
+[17:49:33] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[17:49:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:49:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:49:34] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[17:49:35] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[17:49:35] [Server thread/INFO]: Default game type: SURVIVAL
+[17:49:35] [Server thread/INFO]: Generating keypair
+[17:49:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:49:36] [Server thread/INFO]: Using epoll channel type
+[17:49:36] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:49:36] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[17:49:38] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[17:49:43] [Server thread/WARN]: Legacy plugin MultiWorld v5.2.8 does not specify an api-version.
+[17:49:43] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b125-a772911)
+[17:49:44] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[17:49:44] [Server thread/INFO]: [floodgate] Took 1,014ms to boot Floodgate
+[17:49:44] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.6.0
+[17:49:44] [Server thread/INFO]: [ViaVersion] ViaVersion 5.6.0 is now loaded. Registering protocol transformers and injecting...
+[17:49:45] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[17:49:45] [Via-Mappingloader-1/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[17:49:46] [Server thread/INFO]: [Oneblock] Loading server plugin Oneblock v1.4.4
+[17:49:46] [Server thread/INFO]: [VoidGen] Loading server plugin VoidGen v2.2.1
+[17:49:46] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.9.2-SNAPSHOT
+[17:49:46] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[17:49:46] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[17:49:46] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.4.0
+[17:49:46] [Server thread/INFO]: [MultiWorld] Loading server plugin MultiWorld v5.2.8
+[17:49:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:49:46] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.2.1
+[17:49:47] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_UNKNOWN
+[17:49:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:49:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:49:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:49:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:49:47] [Server thread/INFO]: Preparing level "multiob"
+[17:49:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:49:48] [Server thread/INFO]: Time elapsed: 547 ms
+[17:49:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:49:48] [Server thread/INFO]: Time elapsed: 141 ms
+[17:49:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:49:48] [Server thread/INFO]: Time elapsed: 99 ms
+[17:49:48] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b125-a772911)
+[17:49:51] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.6.0
+[17:49:51] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[17:49:51] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.17).
+[17:49:51] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[17:49:51] [Server thread/INFO]: [Oneblock] Enabling Oneblock v1.4.4
+[17:49:51] [Server thread/INFO]: [Oneblock] 
+█▀█ ░░░░ ░░░ █▀▄ ░░░ ░░░ ░░░ ░░░
+█░█ █▄░█ █▀▀ █▄▀ █░░ █▀█ █▀▀ █▄▀
+█▄█ █░▀█ ██▄ █▄▀ █▄▄ █▄█ █▄▄ █░█
+
+by MrMarL
+[17:49:51] [Server thread/INFO]: [Oneblock] basic
+[17:49:52] [Server thread/INFO]: [Oneblock] Loaded 2 general rewards and 0 level-specific reward sets
+[17:49:52] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.9.2-SNAPSHOT
+[17:49:55] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.4.0
+[17:49:55] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
+[17:49:55] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[17:49:56] [Server thread/INFO]: Preparing start region for dimension minecraft:ob
+[17:49:57] [Server thread/INFO]: Time elapsed: 1240 ms
+[17:49:58] [Server thread/INFO]: Preparing start region for dimension minecraft:world
+[17:49:58] [Server thread/INFO]: Time elapsed: 84 ms
+[17:49:58] [Server thread/INFO]: Preparing start region for dimension minecraft:world_the_end
+[17:49:58] [Server thread/INFO]: Time elapsed: 204 ms
+[17:49:59] [Server thread/INFO]: Preparing start region for dimension minecraft:oneblock_nether
+[17:49:59] [Server thread/INFO]: Time elapsed: 125 ms
+[17:49:59] [Server thread/INFO]: Preparing start region for dimension minecraft:world_nether
+[17:49:59] [Server thread/INFO]: Time elapsed: 95 ms
+[17:50:00] [Server thread/INFO]: Preparing start region for dimension minecraft:oneblock
+[17:50:00] [Server thread/INFO]: Time elapsed: 265 ms
+[17:50:00] [Server thread/INFO]: Preparing start region for dimension minecraft:oneblock_the_end
+[17:50:00] [Server thread/INFO]: Time elapsed: 65 ms
+[17:50:01] [Server thread/INFO]: Preparing start region for dimension minecraft:onedef
+[17:50:01] [Server thread/INFO]: Time elapsed: 62 ms
+[17:50:02] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[17:50:02] [Server thread/INFO]: [Multiverse-Core] Version 5.4.0 (API v5.4) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[17:50:02] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[17:50:02] [Server thread/INFO]: [MultiWorld] Enabling MultiWorld v5.2.8*
+[17:50:02] [Server thread/INFO]: [MultiWorld] v5.2.8 enabled.
+[17:50:03] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:50:03] [Server thread/INFO]: [Geyser-Spigot] 
+[17:50:03] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.9.2-b1014 (git-master-27fc2d5)
+[17:50:03] [Server thread/INFO]: [Geyser-Spigot] 
+[17:50:03] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:50:15] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 26455
+[17:50:15] [Server thread/INFO]: [Geyser-Spigot] Done (11.719s)! Run /geyser help for help!
+[17:50:15] [Server thread/WARN]: [Geyser-Spigot] *********************************************
+[17:50:15] [Server thread/WARN]: [Geyser-Spigot] 
+[17:50:15] [Server thread/WARN]: [Geyser-Spigot] YOU ARE RUNNING AN UNSUPPORTED VERSION OF JAVA!
+[17:50:15] [Server thread/WARN]: [Geyser-Spigot] Geyser will not work on your version of Java in the future. Please update to Java 21. Current Java version: 17.0.17
+[17:50:15] [Server thread/WARN]: [Geyser-Spigot] 
+[17:50:15] [Server thread/WARN]: [Geyser-Spigot] *********************************************
+[17:50:16] [Server thread/INFO]: Running delayed init tasks
+[17:50:16] [Server thread/INFO]: Done (43.062s)! For help, type "help"
+[17:50:16] [Server thread/INFO]: Timings Reset
+[17:50:16] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[17:50:19] [Craft Scheduler Thread - 7 - Oneblock/INFO]: [Oneblock] The initialization of the world was successful!
+[17:50:19] [Craft Scheduler Thread - 7 - Oneblock/INFO]: [Oneblock] Loaded 2 general rewards and 0 level-specific reward sets
+[17:50:35] [User Authenticator #0/INFO]: UUID of player JeremyXfn is d5570fa5-1f5e-3a33-9856-fd2b73abab90
+[17:50:35] [Server thread/INFO]: JeremyXfn joined the game
+[17:50:35] [Server thread/INFO]: JeremyXfn[/127.126.112.193:57243] logged in with entity id 441 at ([multiob]167.90326325825347, 69.0, 88.03921816176627)
+[17:50:47] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Bedrock user with ip: /127.126.112.193 has disconnected for reason Bedrock client timed out
+[17:51:05] [Server thread/INFO]: JeremyXfn lost connection: Timed out
+[17:51:05] [Server thread/INFO]: JeremyXfn left the game
+[17:51:30] [User Authenticator #0/INFO]: UUID of player JeremyXfn is d5570fa5-1f5e-3a33-9856-fd2b73abab90
+[17:51:30] [Server thread/INFO]: JeremyXfn joined the game
+[17:51:30] [Server thread/INFO]: JeremyXfn[/127.126.112.193:39627] logged in with entity id 442 at ([multiob]167.90326325825347, 69.0, 88.03921816176627)
+[17:51:36] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Player connected with username Jeremy1207xd (898)
+[17:51:36] [localSession-7-2/INFO]: [Geyser-Spigot] Jeremy1207xd (logged in as: Jeremy1207xd) has connected to the Java server
+[17:51:36] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .Jeremy1207xd is 00000000-0000-0000-0009-01f1cb346c0a
+[17:51:36] [WebSocketConnectReadThread-130/INFO]: [floodgate] Got disconnected from the skin uploader: failed to find the given code in combination with the verify code
+[17:51:37] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Jeremy1207xd joined (UUID: 00000000-0000-0000-0009-01f1cb346c0a)
+[17:51:37] [Server thread/INFO]: .Jeremy1207xd joined the game
+[17:51:37] [Server thread/INFO]: .Jeremy1207xd[/127.126.112.193:0] logged in with entity id 444 at ([multiob]167.13051, 69.0, 90.21098)
+[17:51:49] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Jeremy1207xd has disconnected from the Java server because of Bedrock client timed out
+[17:51:49] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Jeremy1207xd disconnected
+[17:51:49] [Server thread/INFO]: .Jeremy1207xd lost connection: Disconnected
+[17:51:49] [Server thread/INFO]: .Jeremy1207xd left the game
+[17:52:44] [Server thread/INFO]: JeremyXfn fell out of the world
+[17:52:53] [Server thread/INFO]: JeremyXfn has made the advancement [Stone Age]
+[17:53:31] [Server thread/INFO]: JeremyXfn has made the advancement [Getting an Upgrade]
+[17:55:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5068ms or 101 ticks behind
+[17:55:30] [User Authenticator #1/INFO]: UUID of player ShineReality20 is 7d685a11-2e27-3af4-adb4-912d6f23585d
+[17:55:30] [Server thread/INFO]: ShineReality20 joined the game
+[17:55:30] [Server thread/INFO]: ShineReality20[/127.230.242.51:34179] logged in with entity id 514 at ([multiob]159.5, 69.0, 87.5)
+[17:56:24] [Server thread/INFO]: JeremyXfn issued server command: /ob invite shinereality20
+[17:56:42] [Server thread/INFO]: ShineReality20 has made the advancement [Stone Age]
+[17:57:58] [Server thread/INFO]: ShineReality20 has made the advancement [Getting an Upgrade]
+[17:58:10] [Server thread/INFO]: JeremyXfn has made the advancement [Monster Hunter]
+[17:59:50] [Server thread/INFO]: JeremyXfn fell out of the world
+[18:00:17] [Server thread/INFO]: JeremyXfn fell out of the world
+[18:00:27] [Server thread/INFO]: ShineReality20 fell out of the world
+[18:02:07] [Server thread/INFO]: JeremyXfn fell out of the world
+[18:02:18] [Server thread/INFO]: ShineReality20 fell out of the world
+[18:02:28] [Server thread/INFO]: JeremyXfn issued server command: /tp ShineReality20
+[18:02:28] [Server thread/INFO]: [JeremyXfn: Teleported JeremyXfn to ShineReality20]
+[18:02:28] [Server thread/INFO]: JeremyXfn was doomed to fall by ShineReality20
+[18:03:50] [Server thread/INFO]: JeremyXfn fell out of the world
+[18:04:14] [Server thread/INFO]: JeremyXfn fell out of the world
+[18:05:13] [Server thread/INFO]: ShineReality20 has made the advancement [Acquire Hardware]
+[18:05:54] [Server thread/INFO]: JeremyXfn has made the advancement [Acquire Hardware]
+[18:06:14] [Server thread/INFO]: ShineReality20 was slain by JeremyXfn
+[18:06:27] [Server thread/INFO]: JeremyXfn fell out of the world
+[18:08:53] [Server thread/INFO]: ShineReality20 has made the advancement [Monster Hunter]
+[18:08:53] [Server thread/INFO]: JeremyXfn fell out of the world
+[18:09:30] [Server thread/INFO]: ShineReality20 fell out of the world
+[18:09:40] [Server thread/INFO]: JeremyXfn fell out of the world
+[18:11:17] [Server thread/INFO]: JeremyXfn fell out of the world
+[18:11:22] [Server thread/INFO]: JeremyXfn issued server command: /tp ShineReality20
+[18:11:22] [Server thread/INFO]: [JeremyXfn: Teleported JeremyXfn to ShineReality20]
+[18:11:22] [Server thread/INFO]: JeremyXfn fell from a high place
+[18:11:39] [Server thread/INFO]: JeremyXfn issued server command: /tp ShineReality20
+[18:11:39] [Server thread/INFO]: [JeremyXfn: Teleported JeremyXfn to ShineReality20]
+[18:11:39] [Server thread/INFO]: JeremyXfn was doomed to fall by ShineReality20
+[18:12:28] [Server thread/INFO]: JeremyXfn has made the advancement [Isn't It Iron Pick]
+[18:12:57] [Server thread/INFO]: JeremyXfn was slain by ShineReality20
+[18:19:20] [Server thread/INFO]: ShineReality20 has made the advancement [Isn't It Iron Pick]
+[18:20:12] [Server thread/INFO]: ShineReality20 has made the advancement [Best Friends Forever]
+[18:21:15] [Server thread/INFO]: JeremyXfn fell out of the world
+[18:23:28] [Server thread/INFO]: JeremyXfn was slain by ShineReality20
+[18:25:25] [Server thread/INFO]: JeremyXfn fell out of the world
+[18:25:43] [Server thread/INFO]: ShineReality20 has made the advancement [Suit Up]
+[18:26:06] [Server thread/INFO]: JeremyXfn was slain by ShineReality20
+[18:27:57] [Server thread/INFO]: JeremyXfn has made the advancement [Diamonds!]
+[18:29:08] [Server thread/INFO]: JeremyXfn was slain by ShineReality20
+[18:30:04] [Server thread/INFO]: Villager EntityVillager['Villager'/1308, uuid='12150e2e-3ff1-4a19-b756-0fb391b4d141', l='ServerLevel[multiob]', x=164.23, y=-269.71, z=84.55, cpos=[10, 5], tl=3673, v=true] died, message: 'Villager fell out of the world'
+[18:31:28] [Server thread/INFO]: ShineReality20 fell out of the world
+[18:32:28] [Server thread/INFO]: ShineReality20 fell out of the world
+[18:34:22] [Server thread/INFO]: ShineReality20 fell out of the world
+[18:34:31] [Server thread/INFO]: ShineReality20 was slain by JeremyXfn
+[18:34:35] [Server thread/INFO]: JeremyXfn was slain by ShineReality20
+[18:34:51] [Server thread/INFO]: JeremyXfn was slain by ShineReality20
+[18:35:07] [Server thread/INFO]: JeremyXfn fell out of the world
+[18:36:16] [Server thread/INFO]: JeremyXfn was slain by ShineReality20
+[18:38:35] [Server thread/INFO]: Villager EntityVillager['Villager'/1555, uuid='2c1e0863-f044-4c6f-b092-86d4b43653de', l='ServerLevel[multiob]', x=174.60, y=-234.84, z=84.76, cpos=[10, 5], tl=161, v=true] died, message: 'Villager fell out of the world'
+[18:39:36] [Server thread/INFO]: ShineReality20 lost connection: Disconnected
+[18:39:36] [Server thread/INFO]: ShineReality20 left the game
+[18:40:35] [Server thread/INFO]: JeremyXfn lost connection: Disconnected
+[18:40:35] [Server thread/INFO]: JeremyXfn left the game
+[18:41:55] [User Authenticator #2/INFO]: UUID of player ShineReality20 is 7d685a11-2e27-3af4-adb4-912d6f23585d
+[18:41:55] [Server thread/INFO]: ShineReality20 joined the game
+[18:41:55] [Server thread/INFO]: ShineReality20[/127.230.242.51:39373] logged in with entity id 1620 at ([multiob]163.41739009785894, 69.0, 89.2995512741873)
+[18:42:11] [Server thread/INFO]: Villager EntityVillager['Villager'/1617, uuid='238119ef-d9d3-439b-b36c-c56a85a01aac', l='ServerLevel[multiob]', x=170.67, y=69.00, z=91.74, cpos=[10, 5], tl=2038, v=true] died, message: 'Villager was slain by ShineReality20'
+[18:42:14] [Server thread/INFO]: Villager EntityVillager['Villager'/1331, uuid='a2b830e1-7a88-40f9-8118-efcf58a882d1', l='ServerLevel[multiob]', x=164.30, y=69.00, z=92.70, cpos=[10, 5], tl=16945, v=true] died, message: 'Villager was slain by ShineReality20'
+[18:42:24] [Server thread/INFO]: ShineReality20 lost connection: Disconnected
+[18:42:24] [Server thread/INFO]: ShineReality20 left the game
+[19:48:08] [User Authenticator #3/INFO]: UUID of player ShineReality20 is 7d685a11-2e27-3af4-adb4-912d6f23585d
+[19:48:08] [Server thread/INFO]: ShineReality20 joined the game
+[19:48:08] [Server thread/INFO]: ShineReality20[/127.230.242.51:40373] logged in with entity id 1656 at ([multiob]167.76981801139172, 69.0, 89.33787783753505)
+[19:51:50] [Server thread/INFO]: ShineReality20 fell out of the world
+[19:52:26] [Server thread/INFO]: ShineReality20 lost connection: Disconnected
+[19:52:26] [Server thread/INFO]: ShineReality20 left the game
+[19:53:35] [User Authenticator #4/INFO]: UUID of player ShineReality20 is 7d685a11-2e27-3af4-adb4-912d6f23585d
+[19:53:35] [Server thread/INFO]: ShineReality20 joined the game
+[19:53:35] [Server thread/INFO]: ShineReality20[/127.230.242.51:55853] logged in with entity id 1678 at ([multiob]175.8598684454556, 69.0, 93.69999998807907)
+[19:55:29] [Server thread/INFO]: ShineReality20 has made the advancement [Diamonds!]
+[19:59:46] [Server thread/INFO]: ShineReality20 lost connection: Disconnected
+[19:59:46] [Server thread/INFO]: ShineReality20 left the game
+[20:07:20] [Server thread/INFO]: Unknown or incomplete command, see below for error
+op<--[HERE]
+[20:11:16] [GeyserServerChild-4-3/INFO]: [Geyser-Spigot] Player connected with username Jeremy1207xd (898)
+[20:11:16] [localSession-7-3/INFO]: [Geyser-Spigot] Jeremy1207xd (logged in as: Jeremy1207xd) has connected to the Java server
+[20:11:16] [Geyser Spigot connection thread-6-4/INFO]: UUID of player .Jeremy1207xd is 00000000-0000-0000-0009-01f1cb346c0a
+[20:11:16] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Jeremy1207xd joined (UUID: 00000000-0000-0000-0009-01f1cb346c0a)
+[20:11:16] [Server thread/INFO]: .Jeremy1207xd joined the game
+[20:11:16] [Server thread/INFO]: .Jeremy1207xd[/127.126.112.193:0] logged in with entity id 1826 at ([multiob]167.13051, 69.0, 90.21098)
+[20:11:26] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Jeremy1207xd disconnected
+[20:11:26] [GeyserServerChild-4-3/INFO]: [Geyser-Spigot] Jeremy1207xd has disconnected from the Java server because of Bedrock client timed out
+[20:11:26] [Server thread/INFO]: .Jeremy1207xd lost connection: Disconnected
+[20:11:26] [Server thread/INFO]: .Jeremy1207xd left the game
+[20:15:00] [User Authenticator #5/INFO]: UUID of player ShineReality20 is 7d685a11-2e27-3af4-adb4-912d6f23585d
+[20:15:00] [Server thread/INFO]: ShineReality20 joined the game
+[20:15:00] [Server thread/INFO]: ShineReality20[/127.230.242.51:34983] logged in with entity id 1828 at ([multiob]164.2202576939955, 69.0, 88.07721027322586)
+[20:16:20] [Server thread/INFO]: ShineReality20 lost connection: Disconnected
+[20:16:20] [Server thread/INFO]: ShineReality20 left the game
+[20:16:25] [User Authenticator #6/INFO]: UUID of player ShineReality20 is 7d685a11-2e27-3af4-adb4-912d6f23585d
+[20:16:25] [Server thread/INFO]: ShineReality20 joined the game
+[20:16:25] [Server thread/INFO]: ShineReality20[/127.230.242.51:34827] logged in with entity id 1841 at ([multiob]161.29904186238215, 69.0, 91.34602551033434)
+[20:17:48] [User Authenticator #7/INFO]: UUID of player JeremyXfn is d5570fa5-1f5e-3a33-9856-fd2b73abab90
+[20:17:48] [Server thread/INFO]: JeremyXfn joined the game
+[20:17:48] [Server thread/INFO]: JeremyXfn[/127.126.112.193:39329] logged in with entity id 1851 at ([multiob]168.13058985706243, 69.0, 90.62935618536797)
+[20:18:00] [Server thread/INFO]: ShineReality20 fell out of the world
+[20:18:03] [Server thread/INFO]: ShineReality20 has made the advancement [Take Aim]
+[20:18:08] [Server thread/INFO]: JeremyXfn was slain by ShineReality20
+[20:18:18] [Server thread/INFO]: JeremyXfn was slain by ShineReality20
+[20:18:22] [Async Chat Thread - #1/INFO]: [Not Secure] <JeremyXfn> qie haces aca arturo
+[20:18:33] [Server thread/INFO]: JeremyXfn was slain by ShineReality20
+[20:18:44] [Server thread/INFO]: JeremyXfn was slain by ShineReality20
+[20:18:52] [Server thread/INFO]: JeremyXfn was slain by ShineReality20
+[20:18:55] [Async Chat Thread - #0/INFO]: [Not Secure] <ShineReality20> pffss
+[20:19:02] [Server thread/INFO]: ShineReality20 was slain by JeremyXfn
+[20:19:07] [Server thread/INFO]: JeremyXfn was slain by ShineReality20
+[20:19:19] [Server thread/INFO]: JeremyXfn was slain by ShineReality20
+[20:19:27] [Async Chat Thread - #1/INFO]: [Not Secure] <JeremyXfn> ahorita te apago el server
+[20:19:28] [Async Chat Thread - #0/INFO]: [Not Secure] <ShineReality20> ya arturo
+[20:19:33] [Server thread/INFO]: JeremyXfn has made the advancement [The Parrots and the Bats]
+[20:19:37] [Async Chat Thread - #0/INFO]: [Not Secure] <ShineReality20> apagalo pues apagalo
+[20:20:01] [Server thread/INFO]: JeremyXfn issued server command: /stop
+[20:20:01] [Server thread/INFO]: [JeremyXfn: Stopping the server]
+[20:20:01] [Server thread/INFO]: Stopping server
+[20:20:01] [Server thread/INFO]: [MultiWorld] Disabling MultiWorld v5.2.8
+[20:20:01] [Server thread/INFO]: [MultiWorld] Disabled.
+[20:20:01] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.4.0
+[20:20:01] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.9.2-SNAPSHOT
+[20:20:01] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[20:20:01] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[20:20:01] [Server thread/INFO]: [VoidGen] Disabling VoidGen v2.2.1
+[20:20:01] [Server thread/INFO]: [Oneblock] Disabling Oneblock v1.4.4
+[20:20:01] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.6.0
+[20:20:01] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[20:20:01] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.5-SNAPSHOT (b125-a772911)
+[20:20:01] [Server thread/INFO]: Saving players
+[20:20:01] [Server thread/INFO]: ShineReality20 lost connection: Server closed
+[20:20:01] [WebSocketConnectReadThread-139/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[20:20:01] [Server thread/INFO]: ShineReality20 left the game
+[20:20:01] [Server thread/INFO]: JeremyXfn lost connection: Server closed
+[20:20:02] [Server thread/INFO]: JeremyXfn left the game
+[20:20:02] [Server thread/INFO]: Saving worlds
+[20:20:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[multiob]'/minecraft:overworld
+[20:20:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'multiob'
+[20:20:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'multiob'
+[20:20:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'multiob'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Saved 944 block chunks, 3 entity chunks, 1 poi chunks in world 'multiob' in 1.25s
+[20:20:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (multiob): All chunks are saved
+[20:20:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[multiob_nether]'/minecraft:the_nether
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'multiob_nether'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'multiob_nether'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'multiob_nether'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 14 entity chunks, 0 poi chunks in world 'multiob_nether' in 0.00s
+[20:20:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:20:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[multiob_the_end]'/minecraft:the_end
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'multiob_the_end'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'multiob_the_end'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'multiob_the_end'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'multiob_the_end' in 0.01s
+[20:20:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:20:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[ob]'/minecraft:ob
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'ob'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'ob'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'ob'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 47 entity chunks, 0 poi chunks in world 'ob' in 0.02s
+[20:20:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (ob): All chunks are saved
+[20:20:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:world
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 37 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[20:20:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:20:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:world_the_end
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[20:20:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:20:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[OneBlock_nether]'/minecraft:oneblock_nether
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'OneBlock_nether'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'OneBlock_nether'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'OneBlock_nether'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 16 entity chunks, 0 poi chunks in world 'OneBlock_nether' in 0.01s
+[20:20:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:20:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:world_nether
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:20:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 15 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[20:20:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:20:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[OneBlock]'/minecraft:oneblock
+[20:20:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'OneBlock'
+[20:20:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'OneBlock'
+[20:20:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'OneBlock'
+[20:20:04] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 95 entity chunks, 0 poi chunks in world 'OneBlock' in 0.03s
+[20:20:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (OneBlock): All chunks are saved
+[20:20:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[OneBlock_the_end]'/minecraft:oneblock_the_end
+[20:20:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'OneBlock_the_end'
+[20:20:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'OneBlock_the_end'
+[20:20:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'OneBlock_the_end'
+[20:20:04] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'OneBlock_the_end' in 0.01s
+[20:20:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:20:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[onedef]'/minecraft:onedef
+[20:20:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'onedef'
+[20:20:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'onedef'
+[20:20:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'onedef'
+[20:20:04] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'onedef' in 0.00s
+[20:20:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (onedef): All chunks are saved
+[20:20:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:20:04] [Server thread/INFO]: Flushing Chunk IO
+[20:20:04] [Server thread/INFO]: Closing Thread Pool
+[20:20:04] [Server thread/INFO]: Closing Server
